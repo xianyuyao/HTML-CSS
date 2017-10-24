@@ -1,0 +1,153 @@
+<!-- HTML 语法记录 -->
+
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="外部样式表.css">
+	<style type="text/css">
+		
+	</style>
+	<iframe src="/example/html/demo_iframe.html" name="iframe_a"></iframe>
+	
+	<meta name="description" content="Free Web tutorials on HTML, CSS, XML这样说不定搜索引擎就找的到你了" />
+</head>
+
+<body style="background-color:yellow" background="asfsvdv.jpg/gif">   <!-- 背景颜色黄色或者直接贴图 -->
+
+	<h1 style="font-family:verdana; font-size:20px";>这是一个字体为verdana，大小为12的标题</h1>
+	<h2>abc</h2>
+	<!-- …… -->
+	<h6>abc</h6>
+	
+	<p style="text-align:center">这是一个<strong>同样加粗的</strong>并且<big>变大的</big>段落</p>
+	
+	<hr/>  <!-- 在页面中创造水平线 -->
+	
+	<p>这是一段测试文字，主要看清不同样式，比如，<em>斜体</em>,<i>也是斜体</i>，<small>变小</small>，<sub>显示字符高度的上一半</sub>，<sup>显示字符高度的下一半</sup></p>
+	
+	<pre>这是 预格式
+			很适合写代码
+	</pre>
+	
+	<!-- 以下一些代码很适合显示编程 -->
+	<code>sdklvovh编程代码示例不留空格换行，可以套在pre里面</code>
+	<kbd>sdiuhvdsivhdio键盘格式</kbd>
+	<tt>adklfdjhlgvbls</tt>
+	<samp>dsfklbsvhdiob计算机输出格式</samp>
+	<var>加粗斜体，定义数学变量</var>
+	
+	<address>专门用来写地址：<a href="http://www.baidu.com">abc</a></address>
+	
+	<abbr title="asajksfksdf">通过一点动态效果解释缩写内容，ie5无效</abbr>
+	<acronym title="xzhdivh">效果同上</acronym>
+	
+	<bdo>覆盖原有内容，从右向左输出中英文lalala</bdo>
+	
+	<cite>用斜体标注著作标题</cite>
+	<blockquote cite="引用地址">用于长篇引用且这是个块状元素,sdfksvgsdvgbsibgisdbvwidbvbisadbivcdasv</blockquote>
+	<q>用于短篇引用比如一句话</q>
+	
+	<del>这一行被划掉了</del>
+	<ins>这是行加了下划线</ins>
+	
+	<dfn title="sdvhsdk">wws 斜体</dfn>
+	<dfn><abbr title="sdvf">sew 多了条下划线</abbr><dfn>
+	<dfn>貌似只有斜体了</dfn>
+	
+	<a href="http://www.baidu.com" target="_blank" name="tips">这是<b>一个加粗的</b><i>斜体的</i>链接</a>
+	<a href="#tips">点击即可跳转到name=tips的那一位置，用于同一文档</a>
+	<a href="http://www.baidu.com#tips">可以直接跳转到tips这里，用于不同页面</a>
+	<a href="http://www.baidu.com" target="_top">跳出框架</a>
+	<a href="mailto:someone@microsoft.com?subject=Hello%20again">发送邮件,%20代表空格</a>
+	
+	<img src="abc.jpg" width="104" height="142" alt="图看不到就能看到这句话" align="top/middle/bottom/left/right" height="50" width="100"/>
+	<a href="/example/html/lastpage.html"><img border="0" src="/i/eg_buttonnext.gif" /></a>
+	<a href="/example/html/html_ismap.html"><img src="/i/eg_planets.jpg" ismap /></a><!-- ismap相当于定位 -->
+	
+	<!-- 创建图像映射 -->
+	<img src="/i/eg_planets.jpg" border="0" usemap="#planetmap" alt="Planets"  />
+	<map name="planetmap" id="planetmap">
+	<area shape="circle" coords="180,139,14" href ="/example/html/venus.html" target ="_blank" alt="Venus" />
+	<area shape="circle" coords="129,161,10" href ="/example/html/mercur.html" target ="_blank" alt="Mercury" />
+	<area shape="rect" coords="0,0,110,260" href ="/example/html/sun.html" target ="_blank" alt="Sun" />
+	</map>
+	
+	<iframe src="URL实现在网页内显示网页" width="200" height="200" frameborder="0"></iframe>
+	
+	iframe src="/example/html/demo_iframe.html" name="iframe_a"></iframe>
+	<p><a href="http://www.w3school.com.cn" target="iframe_a">W3School.com.cn此时点击链接即可使上述边框显示网页内容</a></p>
+
+	<table border="边框粗细" cellpadding="表格空白边距" cellspacing="边框边距" bgcolor="red" background="sdfgsd.gif">
+	<caption>我的标题</caption>
+	<tr>
+		<th colspan="一共占几行">表头</th>
+		<th>表头</th>
+	</tr>
+	<tr>
+		<td rowspan="一共占几列" align="right/left/center">sdf</td>
+		……
+		<td>&nbsp;</td>
+	</tr>
+	………………
+	<tr>
+		<td>sdf</td>
+		……
+		<td>sgfc</td>
+	</tr>
+	</table>
+	
+	<ul type="disc/circle/square/"> <!-- 无序列表 -->
+		<li>前面有个点</li>
+		<li>b</li>
+	</ul>
+	
+	<ol type="A/a/I/i"> <!-- 有序列表 -->
+		<li>前面有个点</li>
+		<li>b</li>
+	</ol>
+	
+	<dl>
+		<dt>计算机</dt>
+		<dd>用来计算的仪器 ... ...</dd><!-- 空一个tab出来 -->
+		<dt>显示器</dt>
+		<dd>以视觉方式显示信息的装置 ... ...</dd>
+	</dl>
+	
+	<table frame="box/hsides/vsides/above/below">
+		<tr>
+		 <td>sc</td>
+		</tr>
+	</table>
+	
+	<table border="1">
+		<thead> <!--页眉 -->
+			<tr>
+			 <th>Month</th>
+			 <th>Savings</th>
+			</tr>
+		</thead>
+		<tbody> <!-- 主体 -->
+			<tr>
+			 <td>January</td>
+			 <td>$100</td>
+			</tr>
+			<tr>
+			 <td>February</td>
+			 <td>$80</td>
+			</tr>
+		</tbody>
+		<tfoot> <!-- 页脚 -->
+			<tr>
+			 <td>Sum</td>
+			 <td>$180</td>
+			</tr>
+		</tfoot>
+	</table>
+	
+	
+	<br/>   <!-- 关闭空元素的正确方法 -->
+	
+	<table border="1">  <!-- 表边框 -->
+	
+</body>
+</html>
